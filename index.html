@@ -1,21 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <meta name=""viewport content="width=device-width, initial-scale=1.0">
-    <title>Day 1</title>
-    <style>
-        h1{
-            animation-name: anim;
-            animation-iteration-count: infinite;
+        <meta charset="UTF-8">
+        <meta name=""viewport content="width=device-width, initial-scale=1.0">
+        <title>Day 1</title>
+        <style>
+            h1{
+                background-image: linear-gradient(120deg, red,blue,green,yellow);
+                color: aliceblue;
+                margin-top: 0px;
+                width: 1000;
+                text-align: center;
+                border-radius: 4px;
+                
+            }
+            nav{
+                background-color:  rgb(208, 173, 255);
+                height: 40px;
+                border: transparent ;
+                border-radius: 4px;
+                text-align: center;
+                padding-top: 15px;
+            
+            }
+            a{ margin: 15px;
+                right: 5px;
+                text-decoration: none;
+                border: 1px solid;
+                padding: 5px;
+                background-color: white;
+                border-color: transparent;
+                border-radius: 4px;
+                text-align: center;
+                color: black;
+            }
+            a:hover{
+                background-color: rgb(0, 42, 255);
+                border: solid;
+                border-color: transparent;
+                text-decoration: none;
+                border-radius: 4px;
+                margin: 10px;
+                text-align: center;
+                color: aliceblue;
+                font-weight: bolder;
+                
+            }
+            
+            #h2{
+                position: absolute;
+                top: 130px;
+                left: 46%;
+                animation-name: anim;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                font-weight: bolder;
+                
+                
+
+            }
+            #TAJ{
+                background-image: url(https://www.worldhistory.org/image/3837/taj-mahal/download/);
+                position: absolute;
+                left: 40%;
+                top: 180px;
+                background-size: cover;
+                width: 300px;
+                height: 200px;
+                align-content: center;
+
+              
+            }
+            #TAJ:hover{
+                background-image: url(https://static.toiimg.com/photo/msid-89345913,width-96,height-65.cms);
+                position: absolute;
+                left: 40%;
+                top: 180px;
+                width: 300px;
+                height: 200px;
+                background-size: cover;
+                animation-name: taj;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+            #AGRA{
+                background-image: url(https://kevinstandagephotography.wordpress.com/wp-content/uploads/2019/05/cover-3.jpg);
+                position: absolute;
+                left: 40%;
+                top: 550px;
+                background-size: cover;
+                width: 300px;
+                height: 200px;
+            
+            }
+            #AGRA:hover{background-image: url(https://images.cnbctv18.com/wp-content/uploads/2022/08/Agra-Fort.jpg);
+                position: absolute;
+                left: 40%;
+                top: 550px;
+                width: 300px;
+                height: 200px;
+                background-size: cover;
+                animation-name: taj;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                
+
+            }
+            
+            #h3{
+                position: absolute;
+                top: 500px;
+                left: 47%;
+                animation-name: anim;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                font-weight: bolder;
+                text-align: center;
+                
+            
+                
+            }
+            @keyframes anim{
+                45%{background-color: rgb(255, 0, 0); border-radius: 4px;}
+                90%{background-color: rgb(60, 1, 255); border-radius: 4px;}
+                
+            }
+            @keyframes taj{
+                45%{border-radius: 90%;}
+                90%{border-radius: 5px;}
+
+
+                
+            }
+        #div1{
+            border: 1px solid;
+            
+            
         }
-        @keyframes anim{
-            from{color: blueviolet;}
-            to{color: red;}
+        #p2{
+            position: absolute;
+            top: 370px;
+            left: 15px;
+            text-align: center;
         }
-    </style>
+        #p3{
+            position: absolute;
+            top: 750px;
+            left: 20%;
+            text-align: center;
+        }
+        #sty{color: red;
+            border-bottom: 1px;
+            border: 1px solid;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        
+            
+        }
+        #one{
+            border: solid;
+            width: 100%;
+            height: 350px;
+            background-color: rgb(208, 173, 255);
+            border: 1px solid;
+            border-radius: 4px;
+            
+        }
+            
+            
+        </style>
     </head>
         <body>
-            <h1>hey</h1>
+            <h1>HISTORICA PLACES</h1>
+            <nav>
+                <a href="about.html">About</a>
+                <a href="login.html">Login</a>
+                <a href="terms.html">Terms</a>
+            </nav><br>
+            <div id="one">
+            <p id="h2">1.TAJ MAHAL</p>
+            <div id="TAJ"><br><br><br></div>  <p id="p2">The is a <span id="sty">white marble mausoleum</span> in Agra, India. It was built by Mughal emperor Shah Jahan in memory of his wife, Mumtaz Mahal. The Taj Mahal is a UNESCO World Heritage Site and is considered one of the world's most famous architectural achievements. </p></div><br>
+            
+            <div id="one">
+            <p id="h3">2.AGRA FORT</p>
+            <div id="AGRA"></div><p id="p3">The Agra Fort is a UNESCO World Heritage site and a historic fortress in Agra, India. It was the main <span id="sty">residence of the Mughal emperors</span> until 1638</p></div>
+         
         </body>
-</html>
+        </html>
