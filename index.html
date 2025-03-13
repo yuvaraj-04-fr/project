@@ -1,98 +1,156 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name=""viewport content="width=device-width, initial-scale=1.0">
-        <title>Day 1</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
-        <style>
-            .a{
+  body{
+                background-color: rgb(208, 173, 255);
+            }
+            h1{
                 background-image: linear-gradient(120deg, red,blue,green,yellow);
-                color: white;
-               
-            }
-            .h{
-                color: white;
-                font-weight: 500;
-                font-family: serif; 
-                text-decoration: none; 
-                padding-right: 30px;
-                border-right: 1px white solid;
+                color: aliceblue;
+                margin-top: 0px;
+                width: 1000;
                 text-align: center;
-                padding-left: 35%;
+                border-radius: 4px;
+                
             }
-            span{
-                color: white;
-                font-family: initial;
+            nav{
+                background-color:  rgb(208, 173, 255);
+                height: 40px;
+                border-radius: 4px;
+                text-align: center;
+                padding-top: 15px;
+            
             }
-           body{
-            background-color: rgb(53, 52, 54);
-           }
-           .g-col-6{
-            width: 900px;
-                height: 500px;
-                border: 1px solid grey;
-                background-color: rgb(53, 52, 54);
-                position: relative;
-                left: 21%;
-                top: 30px;
-           }
-           #taj{
-            width: 300px;
-            height: 200px;
-            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/640px-Taj_Mahal_%28Edited%29.jpeg);
-            background-size: cover;
-            position: absolute;
-            left: 33%;
-            top: 40px;
-           }
-           #taj:hover{
-            background-size: cover;
-            background-image: url(https://static.toiimg.com/photo/65668358.cms);
-            width: 300px;
-            height: 200px;
-           }
-           #text{
-            padding-top: 80%;
-            color: white;
-           }
-           #button{
-            background-color: rgb(53, 52, 54);
-            border: 0px;
-            color: rgb(130, 130, 196);
-           }
-           #button:hover{
-            border-bottom: 1px blue solid;
-            background-color: rgb(53, 52, 54);
-            border: 0px;
-            color: rgb(255, 0, 60);
-           }
-        </style>
-    </head>
-        <body class="col-">
-            <nav class="col- navbar navbar-expand-lg bg a">
-                <div class="container-fluid">
-                  <a class="h" href="#">HISTORICAL PLACES IN INDIA</a>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about.html"><span>ABOUT</span></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="terms.html"><span>TERMS</span></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="login.html"><span>LOGIN</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-              <div class=" grid text-center" style="--bs-gap: .25rem 1rem;">
-                <div class="g-col-6"><div id="taj"><p id="text">The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan to house the tomb of his beloved wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself <a href="https://en.wikipedia.org/wiki/Taj_Mahal" id="button">read more....</a></p></div></div><br><br>
+            a{ margin: 15px;
+                right: 5px;
+                text-decoration: none;
+                border: 1px solid;
+                padding: 5px;
+                background-color: white;
+                border-color: transparent;
+                border-radius: 4px;
+                text-align: center;
+                color: black;
+            }
+            a:hover{
+                background-color: rgb(0, 42, 255);
+                border: solid;
+                border-color: transparent;
+                text-decoration: none;
+                border-radius: 4px;
+                margin: 10px;
+                text-align: center;
+                color: aliceblue;
+                font-weight: bolder;
+                
+            }
+            
+            #h2{
+                position: absolute;
+                top: 130px;
+                left: 46%;
+                animation-name: anim;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                font-weight: bolder;
+                
+                
+
+            }
+            #TAJ{
+                background-image: url(https://www.worldhistory.org/image/3837/taj-mahal/download/);
+                position: absolute;
+                left: 40%;
+                top: 180px;
+                background-size: cover;
+                width: 300px;
+                height: 200px;
+                align-content: center;
+
               
-                <div class="g-col-6"></div><br><br>
-                <div class="g-col-6"></div><br><br>
-              </div>
-        </body>
-        </html>
+            }
+            #TAJ:hover{
+                background-image: url(https://static.toiimg.com/photo/msid-89345913,width-96,height-65.cms);
+                position: absolute;
+                left: 40%;
+                top: 180px;
+                width: 300px;
+                height: 200px;
+                background-size: cover;
+                animation-name: taj;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+            #AGRA{
+                background-image: url(https://kevinstandagephotography.wordpress.com/wp-content/uploads/2019/05/cover-3.jpg);
+                position: absolute;
+                left: 40%;
+                top: 550px;
+                background-size: cover;
+                width: 300px;
+                height: 200px;
+            
+            }
+            #AGRA:hover{background-image: url(https://images.cnbctv18.com/wp-content/uploads/2022/08/Agra-Fort.jpg);
+                position: absolute;
+                left: 40%;
+                top: 550px;
+                width: 300px;
+                height: 200px;
+                background-size: cover;
+                animation-name: taj;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                
+
+            }
+            
+            #h3{
+                position: absolute;
+                top: 500px;
+                left: 47%;
+                animation-name: anim;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                font-weight: bolder;
+                text-align: center;
+                
+            
+                
+            }
+            @keyframes anim{
+                45%{background-color: rgb(255, 0, 0); border-radius: 4px;}
+                90%{background-color: rgb(60, 1, 255); border-radius: 4px;}
+                
+            }
+            @keyframes taj{
+                45%{border-radius: 90%;}
+                90%{border-radius: 5px;}
+                
+
+
+                
+            }
+        #div1{
+            border: 1px solid;
+            
+            
+        }
+        #p2{
+            position: absolute;
+            top: 370px;
+            left: 15px;
+            text-align: center;
+        }
+        #p3{
+            position: absolute;
+            top: 750px;
+            left: 20%;
+            text-align: center;
+        }
+        #sty{color: red;
+            border-bottom: 1px;
+            border: 1px solid;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        
+            
+        }
